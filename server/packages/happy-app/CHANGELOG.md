@@ -1,3 +1,8 @@
+# September 13 — Automation launch recovery
+
+- Scheduled automations now record launches rejected before a provider process starts as failed, allowing the next scheduled tick to run instead of remaining stuck as active.
+- Uncertain provider starts remain active until reconciled, preserving protection against duplicate execution.
+
 # September 13 — Credentials & Accounts Management
 
 - Open **Settings > Credentials & Accounts** to list, add or log in again, rename, select defaults, and remove machine-local named Claude, Codex, and Grok accounts. Removing an account locally does not revoke access with the provider or stop active sessions.
