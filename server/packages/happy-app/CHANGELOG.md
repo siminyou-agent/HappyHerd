@@ -1,3 +1,8 @@
+# September 17 — Plan snapshots and answerable question forms
+
+- Supported ACP plan snapshots reach the conversation, and compact tool display no longer hides their content.
+- Question forms support written answers and retain the original approval controls when a native payload cannot be rendered. Codex native question transport and complete restored-plan coverage remain separate unfinished work.
+
 # September 13 — Credentials & Accounts Management
 
 - Open **Settings > Credentials & Accounts** to list, add or log in again, rename, select defaults, and remove machine-local named Claude, Codex, and Grok accounts. Removing an account locally does not revoke access with the provider or stop active sessions.
