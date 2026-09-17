@@ -1,3 +1,8 @@
+# September 17 — Reliable quota account switching
+
+- Quota-account switching now carries Claude’s stable account identity and restores Grok’s original state home while retaining existing conversation IDs. Switching credentials does not submit or replay work.
+- Managed Codex and Grok auth-file activation and writeback now check account ownership; stale quota notices remain retryable instead of being acknowledged as scheduled.
+
 # September 13 — Credentials & Accounts Management
 
 - Open **Settings > Credentials & Accounts** to list, add or log in again, rename, select defaults, and remove machine-local named Claude, Codex, and Grok accounts. Removing an account locally does not revoke access with the provider or stop active sessions.
