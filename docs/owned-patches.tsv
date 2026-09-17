@@ -354,3 +354,4 @@ WORKSPACE_DELETE_NAVIGATION_TEST	accepted	test(workspace): match exact names dur
 CREDENTIAL_MANAGER	accepted	feat(credentials): add account and credential management	server/packages/happy-app/sources/components/CredentialsSettingsView.browser.test.ts
 CREDENTIAL_LOGIN_VISIBILITY	accepted	fix(credentials): expose providers and run Claude login in a PTY	server/packages/happy-cli/src/credentialPool/loginManager.test.ts
 CREDENTIAL_POOL_SESSION_CONTINUITY	accepted	fix(credentials): preserve sessions across quota account swaps	server/packages/happy-cli/src/credentialPool/providerLimitNotice.test.ts
+CREDENTIAL_POOL_RENAME_ACTIVATION	accepted	test(credentials): verify active ownership across account rename	server/packages/happy-cli/src/credentialPool/store.test.ts
