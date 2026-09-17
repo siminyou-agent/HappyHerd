@@ -1,3 +1,8 @@
+# September 17 — Preserve interrupted Claude requests
+
+- Claude quota rejections no longer mark an interrupted queued request complete or claim the next request while the daemon switches accounts.
+- The existing session and request queue are retained; this change adds no continuation prompts or new account-selection behavior.
+
 # September 13 — Credentials & Accounts Management
 
 - Open **Settings > Credentials & Accounts** to list, add or log in again, rename, select defaults, and remove machine-local named Claude, Codex, and Grok accounts. Removing an account locally does not revoke access with the provider or stop active sessions.
