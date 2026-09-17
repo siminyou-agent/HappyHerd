@@ -1,3 +1,8 @@
+# September 17 — Reliable Claude login code submission
+
+- Submitting a Claude authorization code no longer reopens the code-entry form merely because the terminal redraws its original sign-in link.
+- Code entry and Enter are delivered separately to the native terminal. A broken input stream ends the attempt with a clear failure so Retry can begin a fresh sign-in.
+
 # September 13 — Credentials & Accounts Management
 
 - Open **Settings > Credentials & Accounts** to list, add or log in again, rename, select defaults, and remove machine-local named Claude, Codex, and Grok accounts. Removing an account locally does not revoke access with the provider or stop active sessions.
